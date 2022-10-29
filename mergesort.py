@@ -1,8 +1,5 @@
 def merge(left, right):
-
-    # SU SOLUCION EMPIEZA AQUI    
     result = []
-
     while len(left) > 0 and len(right) > 0:
         if left[0] > right[0]:
             result.append(right[0])
@@ -21,7 +18,6 @@ def merge(left, right):
     return result
 
 def merge_sort(lista):
-    # SU SOLUCION EMPIEZA AQUI
     if len(lista) == 1 :
         return lista
 
